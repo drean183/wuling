@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Navigation Bar */
+nav {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding: 0 20px;
+}
+
+.title {
+    padding: 30px;
+}
+
+ul {
+    margin: auto;
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 80px;
+    
+}
+
+ul li:not(:last-of-type) a{
+    color: #384967;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    transition: all .3s ease;
+    border-radius: 10px;
+    min-height: 44px;
+    min-width: 44px;
+}
+
+.contact {
+    background-color: #384967;
+    color: white;
+    text-decoration: none;
+    padding: 0 30px;
+    line-height: 4;
+    min-width: 44px;
+    position: absolute;
+    right: 0;
+    margin: 10px 50px;
+    transition: .2s;
+}
+
+.contact:hover {
+    background-color: #4F647F;
+}
+
+nav li:not(:last-of-type) a:hover {
+    font-weight: bold;
+    border-bottom: 2px solid #384967;
+}
+
+#hamburger {
+    color: #384967;
+    font-size: 20px;
+    display: none;
+    min-height: 44px;
+    padding: 30px;
+    transition: .3s;
+}
+
+
+/* main content */
+.content-header {
+    color: #384967;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
