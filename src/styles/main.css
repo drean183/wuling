@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -7,6 +8,11 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
 
 /* Navigation Bar */
 nav {
@@ -16,26 +22,26 @@ nav {
     position: sticky;
     top: 0;
     z-index: 5;
-    padding: 0 20px;
 }
 
-.title {
-    padding: 30px;
+.logo {
+    padding: 20px;
 }
 
 ul {
     margin: auto;
     list-style: none;
     display: flex;
+    padding-bottom: 10px;
 }
 
 ul li {
     display: inline-block;
     line-height: 80px;
-    
+
 }
 
-ul li:not(:last-of-type) a{
+ul li:not(:last-of-type) a {
     color: #384967;
     font-size: 20px;
     text-decoration: none;
@@ -51,7 +57,7 @@ ul li:not(:last-of-type) a{
     color: white;
     text-decoration: none;
     padding: 0 30px;
-    line-height: 4;
+    line-height: 3;
     min-width: 44px;
     position: absolute;
     right: 0;
@@ -68,6 +74,11 @@ nav li:not(:last-of-type) a:hover {
     border-bottom: 2px solid #384967;
 }
 
+.custom-height-carousel {
+    height: 465px;
+    object-fit: cover;
+}
+
 #hamburger {
     color: #384967;
     font-size: 20px;
@@ -82,6 +93,347 @@ nav li:not(:last-of-type) a:hover {
 .content-header {
     color: #384967;
     text-align: center;
+    font-size: 25px;
+    padding: 70px 30px 0 30px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.keterangan {
+    text-align: center;
+}
+
+.card-shadow {
+    box-shadow: 3px 7px 16px -4px rgba(0, 0, 0, 0.7);
+}
+
+/* promo */
+
+.promo-wrap {
+    padding: 2% 20%;
+}
+
+.promo-title {
+    font-weight: bold;
+}
+
+.promo-item {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.promo-img img {
+    width: 100%;
+}
+
+/* car list */
+.car-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+    padding: 5% 10%;
+    overflow: auto;
+}
+
+.car-item {
+    background-color: white;
+}
+
+.car-item img {
+    height: 200px;
+    width: 100%;
+}
+
+.car-item .info {
+    color: #384967;
+    padding: 15px;
+}
+
+.car-name {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.detail-btn {
+    background-color: #384967;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    min-width: 44px;
+    float: right;
+    margin-bottom: 10px;
+    transition: .2s;
+}
+
+.detail-btn:hover {
+    background-color: #4F647F;
+}
+
+.show-more {
+    text-align: center;
+    padding: 40px;
+}
+
+.show-more-btn a {
+    background-color: #384967;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    min-width: 44px;
+    margin-bottom: 10px;
+    transition: .2s ease;
+}
+
+.show-more-btn a:hover {
+    background-color: #4F647F;
+}
+
+/* hubungi saya */
+
+.profil-wrapper {
+    display: flex;
+    margin: 5% 20%;
+}
+
+.profil-wrapper img {
+    width: 50%;
+    flex-grow: 1;
+}
+
+.info-sales {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.info-sales h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media a {
+    color: #7a90ae;
+    padding: 10px;
+    transition: .5s ease;
+    min-height: 44px;
+    min-width: 44px;
+}
+
+.social-media a:hover {
+    color: red;
+}
+
+
+/* map delaer */
+.map-dealer {
+    margin: 3% 10%;
+}
+
+.map-dealer iframe {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* footer */
+footer {
+    background-color: #262F36;
+    color: #fff;
+    padding: 5% 5% 1% 5%;
+}
+
+.footer-wrap {
+    display: flex;
+    gap: 10%;
+    border-bottom: 1px solid#4F647F;
+    justify-content: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.no-telp {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    color: #7a90ae;
+    font-weight: bold;
+}
+
+.no-telp i {
+    margin: 0 10px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    color: #7a90ae;
+    margin-top: 13px;
+}
+
+.alamat {
+    margin-top: 10px;
+}
+
+/* banner */
+
+.banner img {
+    width: 100%;
+}
+
+.detail-wrap {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+/* product color */
+.product-color {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5% 0;
+    flex-wrap: wrap;
+}
+.product-photo {
+    flex-basis: 50%;
+}
+.product-color img {
+    width: 100%;
+    transition: .5s ease;
+}
+.color-list {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.color-name {
+    padding: 10px;
+    text-align: center;
     font-size: 30px;
+    font-weight: bold;
+    transition: .5s ease;
+}
+.color-tab {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.color {
+    border: 4px solid #4F647F;
+    min-width: 44px;
+    min-height: 44px;
+    margin: 20px;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 50%;
+}
+
+.color:hover {
+    transform: translateY(-10px);
+    box-shadow: -1px 10px 35px -9px rgba(0,0,0,0.71);
+    -webkit-box-shadow: -1px 10px 35px -9px rgba(0,0,0,0.71);
+    -moz-box-shadow: -1px 10px 35px -9px rgba(0,0,0,0.71);
+}
+/* pricelist */
+.pricelist {
+    margin: auto;
+    padding: 10px;
+}
+
+.pricelist thead {
+    text-align: center;
+}
+
+.pricelist th {
+    text-decoration: underline;
+}
+
+.pricelist td,
+th {
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* spec */
+.spec {
+    width: 100%;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+/* tab panel */
+#tab-panel {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.tab-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tab {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 10px;
+    background: #384967;
+    cursor: pointer;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #7a90ae;
+    transition: opacity 0.5s;
+}
+.active {
+    background: #4F647F;
+}
+
+.tab-content.show {
+    display: block;
+    opacity: 0;
+}
+
+.spec-table {
+    padding: 10px;
+    width: 100%;
+}
+.spec-table td {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.keterangan {
+    font-size: 15px;
+    font-style: italic;
+    padding: 30px;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+.contact-btn {
+    background-color: #384967;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    line-height: 3;
+    min-width: 44px;
+    transition: .2s;
+    margin: auto auto 30px auto;
+}
+
+.hub-sales {
+    display: flex;
+}
+
+.contact-btn:hover {
+    background-color: #4F647F;
 }
