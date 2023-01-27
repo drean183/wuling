@@ -203,6 +203,10 @@ nav li:not(:last-of-type) a:hover {
     flex-grow: 1;
 }
 
+.info-sales p {
+    color: #262F36;
+}
+
 .info-sales h2 {
     font-weight: bold;
     margin-bottom: 30px;
