@@ -22,7 +22,7 @@ const Confero = {
             }
         </style>
             <div class="banner">
-                <img src="../images/CarPhoto/confero/confero-jumbotron.png">
+                <img src="../images/CarPhoto/confero/confero-jumbotron.webp">
             </div>
             <div class="detail-wrap">
                 <section class="content-header">
