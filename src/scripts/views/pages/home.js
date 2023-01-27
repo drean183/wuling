@@ -39,17 +39,15 @@ const Home = {
                 <section class="content-header">
                     <h2>Hubungi Saya</h2>
                 </section>
-                <p class="keterangan">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, soluta.<p>
+                <p class="keterangan">Sales Wuling Prima Kebon jeruk siap melayani anda dengan memberikan informasi dan program terbaik dari WULING.<p>
                 <div class="profil-wrapper card-shadow">
                     <img src="images/foto.png" alt="Foto Profil">
                     <div class="info-sales">
                         <h2>Wesley Niel</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, soluta.</p>
+                        <p>Saya Wesley Niel siap membantu anda dalam memilih produk terbaik yang cocok dengan anda.</p>
                         <div class="social-media ">
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://wa.me/6285156362622?text=Selamat%20Datang%20di%20Wuling%20Prima%20Kebun%20Jeruk%20Pelayanan%20dan%20Pemesanan%20Mobil%20Wuling%20se-JaBodetabek.%0ASaya%20dengan%20Wesley%20Niel.%20%0AMohon%20info%20%3A%0ANama%20%3A%0ADomisili%20ktp%20%3A%0APromo%20mobil%20yang%20ingin%20di%20tanyakan%20%3A%0A%0AApakah%20sudah%20punya%20kendaraan%20mobil%20Wuling%20sebelumnya%3F" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                             <a href="https://www.facebook.com/profile.php?id=100080313706073&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
                         </div>
                     </>
                 </div>
