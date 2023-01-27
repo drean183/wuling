@@ -75,7 +75,7 @@ const AlmazRs = {
                             <div class="color" data-color="RS EX Dazzling Silver"></div>
                             <div class="color" data-color="RS EX Aurora Silver"></div>
                             <div class="color" data-color="RS EX Carnelian Red"></div>
-                            <div class="color" data-color="Starry Black"></div>
+                            <div class="color" data-color="RS EX Starry Black"></div>
                             <div class="color" data-color="RS Pro Pristine White + Black"></div>
                             <div class="color" data-color="RS Pro Dazzling Silver + Black"></div>
                             <div class="color" data-color="RS Pro Aurora Silver + Black"></div>
