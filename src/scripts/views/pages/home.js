@@ -43,7 +43,7 @@ const Home = {
                 </section>
                 <p class="keterangan">Sales Wuling Prima Kebon jeruk siap melayani anda dengan memberikan informasi dan program terbaik dari WULING.<p>
                 <div class="profil-wrapper card-shadow">
-                    <img src="images/foto.png" alt="Foto Profil">
+                    <img src="images/foto.webp" alt="Foto Profil">
                     <div class="info-sales">
                         <h2>Wesley Niel</h2>
                         <p>Saya Wesley Niel siap membantu anda dalam memilih produk terbaik yang cocok dengan anda.</p>
