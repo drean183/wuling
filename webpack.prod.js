@@ -2,6 +2,7 @@ const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
 const TerserPlugin = require('terser-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
 
 module.exports = merge(common, {
     mode: 'production',
@@ -45,6 +46,12 @@ module.exports = merge(common, {
         ],
     },
     plugins: [
+        new ImageminPlugin({
+            test: /\.(jpe?g|png|gif|svg)$/i,
+            pngquant: {
+                quality: '95-100',
+            },
+        }),
         new CssMinimizerPlugin(),
     ],
 })
