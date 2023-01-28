@@ -66,10 +66,16 @@
     .product-color {
         flex-direction: column;
     }
-}
-@media only screen and (max-width: 780px) {
     .footer-wrap {
         grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .promo-title {
+        font-size: 20px;
+    }
+    .published-date {
+        font-size: 12px;
     }
 }
 
