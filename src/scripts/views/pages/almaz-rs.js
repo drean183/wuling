@@ -206,11 +206,11 @@ const AlmazRs = {
                         </tr>
                         <tr>
                             <td>Almaz 1.5L T Lux+ RS PRO (Two Tone)</td>
-                            <td>Rp. 375.100.000</td>
+                            <td>Rp. 439.200.000</td>
                         </tr>
                         <tr>
                             <td>Almaz RS 2.0DHT A/T (RS HYBRID)</td>
-                            <td>Rp. 385.800.000</td>
+                            <td>Rp. 472.000.000</td>
                         </tr>
                     </tbody>
                 </table>
