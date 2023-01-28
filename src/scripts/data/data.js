@@ -14,8 +14,14 @@ const Cars = [
     {
         nama: 'Wuling Cortez',
         img: 'Cortez.png',
-        jumlahType: 4,
+        jumlahType: 2,
         url: 'cortez',
+    },
+    {
+        nama: 'Wuling New Cortez',
+        img: 'New-Cortez.png',
+        jumlahType: 2,
+        url: 'new-cortez',
     },
     {
         nama: 'Wuling New Confero S',

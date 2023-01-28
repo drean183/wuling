@@ -8,6 +8,7 @@ import Cortez from "../views/pages/cortez";
 import Confero from "../views/pages/confero";
 import AlmazRs from "../views/pages/almaz-rs";
 import Formo from "../views/pages/formo";
+import NewCortez from "../views/pages/new-cortez";
 
 const routes = {
     '/': Home,
@@ -20,6 +21,7 @@ const routes = {
     '/confero': Confero,
     '/almazrs': AlmazRs,
     '/formo': Formo,
+    '/new-cortez': NewCortez,
 };
 
 export default routes;

@@ -39,6 +39,98 @@ const Cortez = {
                         </div>
                     </div>
                 </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Interior
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="img-galery">
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/int1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/int2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/int3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/int4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/int5.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Exterior
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="img-galery">
+                                    <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/ext1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/ext2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/ext3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/ext4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/ext5.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/ext6.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Safety
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="img-galery">
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/s1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/s2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/s3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/s4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/s5.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/cortez/s6.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <section class="content-header">
                     <h2>Price List</h2>
                 </section>
@@ -56,14 +148,6 @@ const Cortez = {
                             <td>Cortez 1.5L T Lux+ CVT</td>
                             <td>Rp. 325.650.000</td>
                         </tr>
-                        <tr>
-                            <td>New Cortez CE Lux+ CVT</td>
-                            <td>Rp. 299.300.000</td>
-                        </tr>
-                        <tr>
-                            <td>New Cortez EX Lux+ CVT</td>
-                            <td>Rp. 337.650.000</td>
-                        </tr>
                     </tbody>
                 </table>
                 <div class="spec">
@@ -77,7 +161,7 @@ const Cortez = {
                             <div class="tab" id="tab-3">TRANSMISSION</div>
                             <div class="tab" id="tab-4">CHASSIS</div>
                         </div>
-                        
+
                         
                         <div class="tab-content" id="content-1">
                             <table class="spec-table">

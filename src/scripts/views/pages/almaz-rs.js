@@ -83,6 +83,110 @@ const AlmazRs = {
                         </div>
                     </div>
                 </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Interior
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="img-galery">
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/int1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/int2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/int3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/int4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/int5.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/int6.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/int7.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/int8.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/int9.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Exterior
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="img-galery">
+                                    <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/ext1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/ext2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/ext3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/ext4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/ext5.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Safety
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="img-galery">
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/s1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/s2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/s3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/s4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/s5.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/s6.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/almazrs/s7.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <section class="content-header">
                     <h2>Price List</h2>
                 </section>

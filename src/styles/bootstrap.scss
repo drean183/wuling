@@ -2,7 +2,11 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$primary : red;
+$accordion-button-active-bg: #384967;
+$accordion-button-active-color: #fff;
+$accordion-icon-active-color: #fff;
+$accordion-border-width: 1px;
+$accordion-border-color: #384967;
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
