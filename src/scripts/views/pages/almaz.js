@@ -383,9 +383,6 @@ const Almaz = {
         const url = `../images/CarPhoto/almaz/`;
         activatePanel();
         colorService(url);
-
-        $('#interior').carousel();
-        $('#exterior').carousel();
     }
 };
 
