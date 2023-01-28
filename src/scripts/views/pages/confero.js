@@ -43,6 +43,125 @@ const Confero = {
                         </div>
                     </div>
                 </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Interior
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="img-galery">
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/int1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/int2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/int3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/int4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/int5.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/int6.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Exterior
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="img-galery">
+                                    <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext5.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext6.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext7.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext8.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext9.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext10.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext11.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/ext12.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Safety
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="img-galery">
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/s1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/s2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/s3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/s4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/s5.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/s6.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/s7.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="galery-item">
+                                            <img src="../images/CarPhoto/confero/s8.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <section class="content-header">
                     <h2>Price List</h2>
                 </section>
