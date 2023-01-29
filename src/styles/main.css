@@ -30,8 +30,7 @@ body {
 
 /* Navigation Bar */
 nav {
-    background-color: white;
-    height: 80px;
+    background-color: #384967;
     display: flex;
     position: sticky;
     top: 0;
@@ -39,15 +38,19 @@ nav {
 }
 
 .logo {
-    padding: 20px;
-    width: 170px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 0 20px;
+}
+.logo img {
+    width: 100%;
 }
 
 ul {
     margin: auto;
     list-style: none;
     display: flex;
-    padding-bottom: 10px;
 }
 
 ul li {
@@ -65,12 +68,14 @@ ul li:not(:last-of-type) a {
     border-radius: 10px;
     min-height: 44px;
     min-width: 44px;
+    color: #fff;
 }
 
 .contact {
-    background-color: #384967;
-    color: white;
+    background-color: #fff;
+    color: #262F36;
     text-decoration: none;
+    font-weight: bold;
     padding: 0 30px;
     line-height: 3;
     min-width: 44px;
@@ -81,12 +86,13 @@ ul li:not(:last-of-type) a {
 }
 
 .contact:hover {
-    background-color: #4F647F;
+    background-color: #7a90ae;
+    color: white;
 }
 
 nav li:not(:last-of-type) a:hover {
     font-weight: bold;
-    border-bottom: 2px solid #384967;
+    border-bottom: 2px solid #fff;
 }
 
 .custom-height-carousel {
@@ -95,7 +101,7 @@ nav li:not(:last-of-type) a:hover {
 }
 
 #hamburger {
-    color: #384967;
+    color: #fff;
     font-size: 20px;
     display: none;
     min-height: 44px;

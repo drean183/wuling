@@ -23,6 +23,9 @@
     .logo  {
         flex-grow: 1;
     }
+    .logo img {
+        width: 200px;
+    }
     ul {
         position: fixed;
         width: 100%;
@@ -33,7 +36,7 @@
         right: -100%;
         transition: .5s;
         z-index: 2;
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(56, 73, 103, 0.9);
         display: inline-block;
     }
 
@@ -78,11 +81,13 @@
         font-size: 12px;
     }
 }
-
-
-@media only screen and (max-width: 350px) {
-    .logo img{
-        width: 100px;
+@media only screen and (max-width: 300px) {
+    ul {
+        top: 170px;
+    }
+    #hamburger {
+        flex-grow: 1;
+        text-align: center;
     }
 }
 .open {

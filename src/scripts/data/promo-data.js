@@ -1,8 +1,8 @@
 const PromoData = [
     {
-        title: 'Wuling New Year, New Drive 2023',
+        title: 'Wuling Air Ev Exhibition',
         img: 'Promo-1.webp',
-        published: '07 January 2023',
+        published: '29 January 2023',
     },
 ]
 
