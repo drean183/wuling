@@ -37,6 +37,12 @@ const Home = {
             <div class="show-more">
                 <div class="show-more-btn"><a href="#/mobil-wuling">Tampilkan Produk Lain</a></div>
             </div>
+            <section class="content-header">
+                <h2>Promo Kami</h2>
+            </section>
+            <div class="container">
+                <img src="images/Slider-1.webp" class="d-block w-100" alt="Promo">
+            </div>
             <div class="contact-wrap">
                 <section class="content-header">
                     <h2>Hubungi Saya</h2>
