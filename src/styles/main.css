@@ -126,7 +126,6 @@ nav li:not(:last-of-type) a:hover {
 .card-shadow {
     box-shadow: 3px 7px 16px -4px rgba(0, 0, 0, 0.7);
 }
-
 /* promo */
 
 .promo-wrap {
@@ -310,8 +309,10 @@ footer {
 .copyright {
     text-align: center;
     font-size: 13px;
-    color: #7a90ae;
     margin-top: 13px;
+}
+.copyright p {
+    color: #aaaaaa;
 }
 
 .alamat {
