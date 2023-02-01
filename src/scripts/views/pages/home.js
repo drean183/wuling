@@ -4,7 +4,7 @@ import Cars from "../../data/data";
 const Home = {
     async render(){
         return `
-            <div class="container">
+            <div class="slider-container">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
