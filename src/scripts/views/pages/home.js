@@ -41,7 +41,7 @@ const Home = {
                 <h2>Promo Kami</h2>
             </section>
             <div class="container">
-                <img src="images/Slider-1.webp" class="d-block w-100" alt="Promo">
+                <a href="#/promo"><img src="images/Slider-1.webp" class="d-block w-100" alt="Promo"></a>
             </div>
             <div class="contact-wrap">
                 <section class="content-header">
